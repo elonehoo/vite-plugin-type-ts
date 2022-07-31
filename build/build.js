@@ -5,7 +5,7 @@ import execa from 'execa'
 // const { logger } = require('./logger')
 
 const __dirname = path.resolve()
-const bin = name => path.resolve(__dirname, 'node_modules/.bin/' + name)
+const bin = name => path.resolve(__dirname, './node_modules/.bin/' + name)
 
 main()
 
@@ -21,7 +21,7 @@ async function main() {
     { stdio: 'inherit' }
   )
 
-  const indexPath = path.resolve(__dirname, 'dist/index.js')
+  const indexPath = path.resolve(__dirname, './dist/index.js')
 
   let indexCodes = await fs.readFile(indexPath, 'utf-8')
 
