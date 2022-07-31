@@ -1,13 +1,17 @@
-import fs from 'fs-extra'
-import path from 'path'
-import execa from 'execa'
+// import fs from 'fs-extra'
+// import path from 'path'
+// import execa from 'execa'
+
+const fs = require('fs-extra')
+const path = require('path')
+const execa = require('execa')
 
 // const { logger } = require('./logger')
 
-const __dirname = path.resolve()
+// const __dirname = path.resolve()
 console.log('__dirname====================>',__dirname)
-console.log(path.resolve(__dirname, '/dist/index.js'))
-const bin = name => path.resolve(__dirname, './node_modules/.bin/' + name)
+console.log(path.resolve(__dirname, '../dist/index.js'))
+const bin = name => path.resolve(__dirname, '../node_modules/.bin/' + name)
 
 main()
 
@@ -23,7 +27,7 @@ async function main() {
     { stdio: 'inherit' }
   )
 
-  const indexPath = path.resolve(__dirname, './dist/index.js')
+  const indexPath = path.resolve(__dirname, '../dist/index.js')
 
   let indexCodes = await fs.readFile(indexPath, 'utf-8')
 
