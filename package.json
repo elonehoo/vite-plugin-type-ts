@@ -7,7 +7,8 @@
   },
   "homepage": "https://github.com/elonehoo/vite-plugin-type-ts#readme",
   "bugs": "https://github.com/elonehoo/vite-plugin-type-ts/issues",
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
