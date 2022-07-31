@@ -1,6 +1,6 @@
 {
   "name": "@elonehoo/vite-plugin-type-ts",
-  "version": "0.0.1-beta.5",
+  "version": "0.0.1-beta.6",
   "type": "module",
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rimraf dist && tsup-node",
+    "build": "rimraf dist && tsup",
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
     "test": "vitest",
     "lint": "eslint .",
