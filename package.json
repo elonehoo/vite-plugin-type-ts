@@ -1,6 +1,6 @@
 {
   "name": "@elonehoo/vite-plugin-type-ts",
-  "version": "0.0.1-beta.2",
+  "version": "0.0.1-beta.3",
   "type": "module",
   "repository": {
     "type": "git",
@@ -9,6 +9,7 @@
   "homepage": "https://github.com/elonehoo/vite-plugin-type-ts#readme",
   "bugs": "https://github.com/elonehoo/vite-plugin-type-ts/issues",
   "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
