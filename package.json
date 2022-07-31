@@ -1,6 +1,16 @@
 {
-  "name": "tiem-mini",
+  "name": "@elonehoo/vite-plugin-type-ts",
   "version": "0.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elonehoo/vite-plugin-type-ts"
+  },
+  "homepage": "https://github.com/elonehoo/vite-plugin-type-ts#readme",
+  "bugs": "https://github.com/elonehoo/vite-plugin-type-ts/issues",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsup",
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
