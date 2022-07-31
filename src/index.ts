@@ -1,3 +1,3 @@
-import { dtsPlugin } from './plugin'
+import { typesPlugin } from './plugin'
 
-export default dtsPlugin
+export default typesPlugin

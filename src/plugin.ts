@@ -57,7 +57,7 @@ export interface PluginOptions {
   afterBuild?: () => void | Promise<void>
 }
 
-export function dtsPlugin(options: PluginOptions = {}): Plugin {
+export function typesPlugin(options: PluginOptions = {}): Plugin {
   const {
     tsConfigFilePath = 'tsconfig.json',
     aliasesExclude = [],

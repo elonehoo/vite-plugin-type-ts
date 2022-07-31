@@ -31,7 +31,7 @@ async function main() {
   const moduleExportsLine = `module.exports = __toCommonJS(src_exports);`
 
   if (indexCodes.includes(moduleExportsLine)) {
-    const name = 'dtsPlugin'
+    const name = 'typesPlugin'
 
     indexCodes = indexCodes.replace(
       moduleExportsLine,
