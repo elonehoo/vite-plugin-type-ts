@@ -5,6 +5,8 @@ import execa from 'execa'
 // const { logger } = require('./logger')
 
 const __dirname = path.resolve()
+console.log('__dirname====================>',__dirname)
+console.log(path.resolve(__dirname, '/dist/index.js'))
 const bin = name => path.resolve(__dirname, './node_modules/.bin/' + name)
 
 main()
