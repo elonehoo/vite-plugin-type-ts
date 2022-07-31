@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@elonehoo/eslint-config': ^2.0.0
-  '@microsoft/api-extractor': ^7.28.6
+  '@microsoft/api-extractor': ^7.20.0
   '@rushstack/node-core-library': ^3.49.0
   '@types/debug': ^4.1.7
   '@types/fs-extra': ^9.0.13

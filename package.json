@@ -40,7 +40,7 @@
     "vue": "^3.2.37"
   },
   "dependencies": {
-    "@microsoft/api-extractor": "^7.28.6",
+    "@microsoft/api-extractor": "^7.20.0",
     "@rushstack/node-core-library": "^3.49.0",
     "chalk": "^5.0.1",
     "debug": "^4.3.4",
