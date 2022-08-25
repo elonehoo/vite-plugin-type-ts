@@ -7,7 +7,7 @@ specifiers:
   '@types/debug': 4.1.7
   '@types/fs-extra': 9.0.13
   '@types/node': 18.6.5
-  '@vitejs/plugin-vue': 3.0.1
+  '@vitejs/plugin-vue': 3.0.3
   bumpp: 8.2.1
   chalk: ^5.0.0
   debug: ^4.3.4
@@ -38,7 +38,7 @@ devDependencies:
   '@types/debug': 4.1.7
   '@types/fs-extra': 9.0.13
   '@types/node': 18.6.5
-  '@vitejs/plugin-vue': 3.0.1_vite@3.0.5+vue@3.2.37
+  '@vitejs/plugin-vue': 3.0.3_vite@3.0.5+vue@3.2.37
   bumpp: 8.2.1
   eslint: 8.21.0
   execa: 6.1.0
@@ -518,8 +518,8 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue/3.0.1_vite@3.0.5+vue@3.2.37:
-    resolution: {integrity: sha512-Ll9JgxG7ONIz/XZv3dssfoMUDu9qAnlJ+km+pBA0teYSXzwPCIzS/e1bmwNYl5dcQGs677D21amgfYAnzMl17A==}
+  /@vitejs/plugin-vue/3.0.3_vite@3.0.5+vue@3.2.37:
+    resolution: {integrity: sha512-U4zNBlz9mg+TA+i+5QPc3N5lQvdUXENZLO2h0Wdzp56gI1MWhqJOv+6R+d4kOzoaSSq6TnGPBdZAXKOe4lXy6g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
