@@ -17,7 +17,7 @@ specifiers:
   fs-extra: ^10.1.0
   pnpm: 7.9.5
   rimraf: 3.0.2
-  ts-morph: ^15.1.0
+  ts-morph: ^16.0.0
   tsup: 6.2.2
   typescript: 4.7.4
   vite: 3.0.9
@@ -31,7 +31,7 @@ dependencies:
   debug: 4.3.4
   fast-glob: 3.2.11
   fs-extra: 10.1.0
-  ts-morph: 15.1.0
+  ts-morph: 16.0.0
 
 devDependencies:
   '@elonehoo/eslint-config': 2.0.0_4rv7y5c6xz3vfxwhbrcxxi73bq
@@ -332,8 +332,8 @@ packages:
       string-argv: 0.3.1
     dev: false
 
-  /@ts-morph/common/0.16.0:
-    resolution: {integrity: sha512-SgJpzkTgZKLKqQniCjLaE3c2L2sdL7UShvmTmPBejAKd2OKV/yfMpQ2IWpAuA+VY5wy7PkSUaEObIqEK6afFuw==}
+  /@ts-morph/common/0.17.0:
+    resolution: {integrity: sha512-RMSSvSfs9kb0VzkvQ2NWobwnj7TxCA9vI/IjR9bDHqgAyVbu2T0DN4wiKVqomyDWqO7dPr/tErSfq7urQ1Q37g==}
     dependencies:
       fast-glob: 3.2.11
       minimatch: 5.1.0
@@ -3380,10 +3380,10 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /ts-morph/15.1.0:
-    resolution: {integrity: sha512-RBsGE2sDzUXFTnv8Ba22QfeuKbgvAGJFuTN7HfmIRUkgT/NaVLfDM/8OFm2NlFkGlWEXdpW5OaFIp1jvqdDuOg==}
+  /ts-morph/16.0.0:
+    resolution: {integrity: sha512-jGNF0GVpFj0orFw55LTsQxVYEUOCWBAbR5Ls7fTYE5pQsbW18ssTb/6UXx/GYAEjS+DQTp8VoTw0vqYMiaaQuw==}
     dependencies:
-      '@ts-morph/common': 0.16.0
+      '@ts-morph/common': 0.17.0
       code-block-writer: 11.0.3
     dev: false
 
