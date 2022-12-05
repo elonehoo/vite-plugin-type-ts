@@ -20,7 +20,7 @@ specifiers:
   ts-morph: ^17.0.1
   tsup: 6.5.0
   typescript: 4.9.3
-  vite: 3.2.4
+  vite: 3.2.5
   vitest: 0.25.3
   vue: 3.2.45
 
@@ -38,7 +38,7 @@ devDependencies:
   '@types/debug': 4.1.7
   '@types/fs-extra': 9.0.13
   '@types/node': 18.11.9
-  '@vitejs/plugin-vue': 3.2.0_vite@3.2.4+vue@3.2.45
+  '@vitejs/plugin-vue': 3.2.0_vite@3.2.5+vue@3.2.45
   bumpp: 8.2.1
   eslint: 8.28.0
   execa: 6.1.0
@@ -46,7 +46,7 @@ devDependencies:
   rimraf: 3.0.2
   tsup: 6.5.0_typescript@4.9.3
   typescript: 4.9.3
-  vite: 3.2.4_@types+node@18.11.9
+  vite: 3.2.5_@types+node@18.11.9
   vitest: 0.25.3
   vue: 3.2.45
 
@@ -549,14 +549,14 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue/3.2.0_vite@3.2.4+vue@3.2.45:
+  /@vitejs/plugin-vue/3.2.0_vite@3.2.5+vue@3.2.45:
     resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.2.4_@types+node@18.11.9
+      vite: 3.2.5_@types+node@18.11.9
       vue: 3.2.45
     dev: true
 
@@ -3359,8 +3359,8 @@ packages:
     engines: {node: '>= 0.10'}
     dev: false
 
-  /vite/3.2.4_@types+node@18.11.9:
-    resolution: {integrity: sha512-Z2X6SRAffOUYTa+sLy3NQ7nlHFU100xwanq1WDwqaiFiCe+25zdxP1TfCS5ojPV2oDDcXudHIoPnI1Z/66B7Yw==}
+  /vite/3.2.5_@types+node@18.11.9:
+    resolution: {integrity: sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -3428,7 +3428,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.2.4_@types+node@18.11.9
+      vite: 3.2.5_@types+node@18.11.9
     transitivePeerDependencies:
       - less
       - sass
