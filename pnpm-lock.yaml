@@ -6,7 +6,7 @@ specifiers:
   '@rushstack/node-core-library': ^3.53.2
   '@types/debug': 4.1.7
   '@types/fs-extra': 9.0.13
-  '@types/node': 18.11.9
+  '@types/node': 18.11.18
   '@vitejs/plugin-vue': 3.2.0
   bumpp: 8.2.1
   chalk: ^5.1.2
@@ -37,7 +37,7 @@ devDependencies:
   '@elonehoo/eslint-config': 2.0.0_hsf322ms6xhhd4b5ne6lb74y4a
   '@types/debug': 4.1.7
   '@types/fs-extra': 9.0.13
-  '@types/node': 18.11.9
+  '@types/node': 18.11.18
   '@vitejs/plugin-vue': 3.2.0_vite@3.2.4+vue@3.2.45
   bumpp: 8.2.1
   eslint: 8.28.0
@@ -46,7 +46,7 @@ devDependencies:
   rimraf: 3.0.2
   tsup: 6.5.0_typescript@4.9.3
   typescript: 4.9.3
-  vite: 3.2.4_@types+node@18.11.9
+  vite: 3.2.4_@types+node@18.11.18
   vitest: 0.25.3
   vue: 3.2.45
 
@@ -379,7 +379,7 @@ packages:
   /@types/fs-extra/9.0.13:
     resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
     dependencies:
-      '@types/node': 18.11.9
+      '@types/node': 18.11.18
     dev: true
 
   /@types/json-schema/7.0.11:
@@ -404,8 +404,8 @@ packages:
     resolution: {integrity: sha512-yxDeaQIAJlMav7fH5AQqPH1u8YIuhYJXYBzxaQ4PifsU0GDO38MSdmEDeRlIxrKbC6NbEaaEHDanWb+y30U8SQ==}
     dev: false
 
-  /@types/node/18.11.9:
-    resolution: {integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==}
+  /@types/node/18.11.18:
+    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -556,7 +556,7 @@ packages:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.2.4_@types+node@18.11.9
+      vite: 3.2.4_@types+node@18.11.18
       vue: 3.2.45
     dev: true
 
@@ -3359,7 +3359,7 @@ packages:
     engines: {node: '>= 0.10'}
     dev: false
 
-  /vite/3.2.4_@types+node@18.11.9:
+  /vite/3.2.4_@types+node@18.11.18:
     resolution: {integrity: sha512-Z2X6SRAffOUYTa+sLy3NQ7nlHFU100xwanq1WDwqaiFiCe+25zdxP1TfCS5ojPV2oDDcXudHIoPnI1Z/66B7Yw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3384,7 +3384,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.11.9
+      '@types/node': 18.11.18
       esbuild: 0.15.15
       postcss: 8.4.19
       resolve: 1.22.1
@@ -3417,7 +3417,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.4
       '@types/chai-subset': 1.3.3
-      '@types/node': 18.11.9
+      '@types/node': 18.11.18
       acorn: 8.8.1
       acorn-walk: 8.2.0
       chai: 4.3.7
@@ -3428,7 +3428,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.2.4_@types+node@18.11.9
+      vite: 3.2.4_@types+node@18.11.18
     transitivePeerDependencies:
       - less
       - sass
