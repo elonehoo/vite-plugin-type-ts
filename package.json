@@ -24,7 +24,7 @@
   "devDependencies": {
     "@elonehoo/eslint-config": "2.0.0",
     "@types/debug": "4.1.7",
-    "@types/fs-extra": "9.0.13",
+    "@types/fs-extra": "11.0.0",
     "@types/node": "18.11.9",
     "@vitejs/plugin-vue": "3.2.0",
     "bumpp": "8.2.1",
@@ -44,7 +44,7 @@
     "chalk": "^5.1.2",
     "debug": "^4.3.4",
     "fast-glob": "^3.2.12",
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^11.1.0",
     "ts-morph": "^17.0.1"
   }
 }
